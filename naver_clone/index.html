@@ -10,7 +10,7 @@
     .sidebar {
       background: lightgray;
       min-height: 200px;
-      border: solid blue 3px;
+      /* border: solid blue 3px; */
       position: relative;
       width: 1300px;
       margin: 5px auto;
@@ -18,9 +18,10 @@
     }
   </style>
 
-  <link rel="stylesheet" href="header.css">
-  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/mainstyle.css">
+  <link rel="stylesheet" href="css/css.css">
 
 </head>
 
@@ -32,14 +33,14 @@
       <a href="" class="link_text">쥬니어네이버</a>
       <a href="" class="link_text">해피빈</a>
     </div>
-    <a href=""><img src="image_header/naver_logo.png" class="img_logo"></a>
+    <a href=""><img src="image/image_header/naver_logo.png" class="img_logo"></a>
     <form>
       <fieldset>
         <legend class="visually-hidden">검색</legend>
         <div class="search_box">
           <input type="text" maxlength="225" tabindex="1">
           <button type="submit" tabindex="2">
-            <img src="image_header/search.png" class="search">
+            <img src="image/image_header/search.png" class="search">
           </button>
         </div>
       </fieldset>
@@ -47,13 +48,13 @@
     <nav>
       <div class="nav_items">
         <ul>
-          <li><a href=""><img src="image_header/mail.png" class="mail_logo">메일</a></li>
+          <li><a href=""><img src="image/image_header/mail.png" class="mail_logo">메일</a></li>
           <li><a href="">카페</a></li>
           <li><a href="">블로그</a></li>
           <li><a href="">지식iN</a></li>
           <li><a href="">쇼핑</a></li>
-          <li><a href="">쇼핑<img src="image_header/shoping_live.png" class="shoping_live"></a></li>
-          <li><a href="">Pay<img src="image_header/tv.png" class="tv"></a></li>
+          <li><a href="">쇼핑<img src="image/image_header/shoping_live.png" class="shoping_live"></a></li>
+          <li><a href="">Pay<img src="image/image_header/tv.png" class="tv"></a></li>
           <li><a href="">TV</a></li>
           <li><a href="">사전</a></li>
           <li><a href="">뉴스</a></li>
@@ -63,11 +64,11 @@
           <li><a href="">VIBE</a></li>
           <li><a href="">도서</a></li>
           <li><a href="">웹툰</a></li>
-          <li><a href="">더보기<img src="image_header/more.png" class="more"></a></li>
+          <li><a href="">더보기<img src="image/image_header/more.png" class="more"></a></li>
         </ul>
         <div class="keyword">
-          <span class="color_weather">미세 <img src="image_header/weather.png"> 좋음
-            초미세 <img src="image_header/weather.png"> 좋음 을지로1가</span>
+          <span class="color_weather">미세 <img src="image/image_header/weather.png"> 좋음
+            초미세 <img src="image/image_header/weather.png"> 좋음 을지로1가</span>
         </div>
       </div>
     </nav>
@@ -76,10 +77,11 @@
 
   <!-- 메인 시작 -->
   <main>
+    <section>
     <div id="main">
       <div id="ad">
         <a href="#">
-          <img src="images/mainad.png" width=750px alt=""></a>
+          <img src="image/images/mainad.png" width=750px alt=""></a>
       </div>
       <div id="newsstand_header">
         <div class="issue_area">
@@ -427,8 +429,236 @@
       <div id="btn_more_wrap"></div>
     </div>
   </main>
+</section>
 
   <!-- 메인 끝 -->
+
+  <!-- 어사이드 시작 -->
+  <aside>
+    <div id="all">
+        <div id="login">
+            <img id="lock1" src="./image/lock.png" width="18px" height="18px">
+            <img id="lock2" src="./image/people.png" width="18px" height="18px">
+            <p id="an">네이버를 더 안전하고 편리하게 이용하세요</p>
+            <div id="login2" style=" cursor: pointer;" onclick="location.href='#';"><a id="login3">NAVER 로그인</a></div><br>
+            <div id="id2">
+            <a id="id" href="#">아이디</a>
+            <a id="id" href="#">비밀번호 찾기</a>
+            </div>
+            <div id="id3">
+            <a id="id" href="#">회원가입</a>
+            </div>
+        </div>
+
+        <div id="issue">
+            <div id="nae">
+                <a id="issue5" href="#">
+            <img id="issue2" src="./image/issue.JPG" width="65px" height="40px" >
+            <div id="issue4">코로나바이러스감염증-19현황</div>
+                </a>
+            <a href="#">
+            <img id="issue3" src="./image/pointer.JPG" width="60px" height="42px" ></a>
+            </div>
+        </div>
+
+        <div id="gwang">
+            <a href="#">
+            <img src="./image/gwang.JPG">
+            </a>
+        </div>
+
+        <div id="trend">
+            <a id="trend2" href="#">
+            <img id="N" src="./image/N.JPG">
+            트렌드쇼핑 >
+            </a>
+            <div id="trend3">
+                <a href="#">상품</a>
+                <a href="#">쇼핑몰</a>
+                <a href="#">MEN</a>
+            </div>
+        </div>
+
+        <div id="show">
+            <div id="ping">
+                <a id="ping2" href="#">쿠팡</a><a>·</a>
+                <a id="ping2" href="#" style="font-weight: bold;">G마켓</a><a>·</a>
+                <a id="ping2" href="#">옥션</a><a>·</a>
+                <a id="ping2" href="#">11번가</a><a>·</a>
+                <a id="ping2" href="#" style="font-weight: bold;">SSG닷컴</a><a>·</a>
+                <a id="ping2" href="#">티몬</a><br>
+                <a id="ping2" href="#" style="font-weight: bold;">올리브영</a><a>·</a>
+                <a id="ping2" href="#">위메프</a><a>·</a>
+                <a id="ping2" href="#">GS샵</a><a>·</a>
+                <a id="ping2" href="#" style="font-weight: bold;">CJ온스타일</a><a>·</a>
+                <a id="ping2" href="#">패션플러스</a>
+            </div>
+
+            <div id="page">
+                <div id="pagea">
+                <a style="font-weight: bold">1 </a><a>/ 18</a>
+                </div>
+                <a href="#">
+                <img id="pageimg" src="./image/pointer.JPG" width="65px" height="40px" >                </a>
+            </div>
+
+            <div id="photo">
+                <a id="photozzang" href="#">
+                <img id="photos" src="./image/1.jpg" width="107.31px" height="146px">
+                <div id="phototext">1년 기다린 블프<br>단3일 세트 특가</div>
+                </a>
+                <a id="photozzang" href="#">
+                <img id="photos" src="./image/2.jpg" width="107.31px" height="146px">
+                <div id="phototext2">꿈도안꾸고 자요!<br>단 2주, 블프특가</div>
+                </a>
+                <a id="photozzang" href="#">
+                <img id="photos" src="./image/3.jpg" width="107.31px" height="146px">
+                <div id="phototext3">포근포근~따듯해<br>아우터 최대89%</div>
+                </a>
+                <a id="photozzang" href="#">
+                <img id="photos" src="./image/4.jpg" width="107.31px" height="146px">
+                <div id="phototext">UP TO 50% SALE<br>원단이 좋은 옷~</div>
+                </a>
+                <a id="photozzang" href="#">
+                <img id="photos" src="./image/5.jpg" width="107.31px" height="146px">
+                <div id="phototext2">제이에스티나<br>윈터 스타일링</div>
+                </a>
+                <a id="photozzang" href="#">
+                <img id="photos" src="./image/6.jpg" width="107.31px" height="146px">
+                <div id="phototext3">왕크니까 왕따뜻<br>대왕핫팩 50+3</div>
+                </a>
+                <a id="photozzang" href="#">
+                <img id="photos" src="./image/7.jpg" width="107.31px" height="146px">
+                <div id="phototext">프리미엄 퀄리티<br>극찬하는겨울신상</div>
+                </a>
+                <a id="photozzang" href="#">
+                <img id="photos" src="./image/8.jpg" width="107.31px" height="146px">
+                <div id="phototext2">보들보들~퍼재킷~<br>지금 최대90%Sale</div>
+                </a>
+                <a id="photozzang" href="#">
+                <img id="photos" src="./image/9.jpg" width="107.31px" height="146px">
+                <div id="phototext3">블프 최대71%특가<br>1개사도무료배송</div>
+                </a>
+                <a id="photozzang" href="#">
+                <img id="photos" src="./image/10.jpg" width="107.31px" height="146px">
+                <div id="phototext">롱삼 백 51% 특가<br>블프 BEST 특가</div>
+                </a>
+                <a id="photozzang" href="#">
+                <img id="photos" src="./image/11.jpg" width="107.31px" height="146px">
+                <div id="phototext2">매일 빨기 힘든옷<br>걸어두기만하면돼</div>
+                </a>
+                <a id="photozzang" href="#">
+                <img id="photos" src="./image/12.jpg" width="107.31px" height="146px">
+                <div id="phototext3">아침대용으로쏙쏙<br>골라먹어봐 5+5+5</div>
+                </a>
+                <a id="photozzang" href="#">
+    
+                <!-- <div id="gl">
+                    <a style="font-weight: bold;">1년 기다린 블프</a><br>
+                    </a>단3일 세트 특가</a>
+                </div> -->
+            </div>
+
+            <div id="page2">
+                <img id="pointerleft" src="./image/pointerleft.JPG" width="35px" height="35px" >                
+                <a id="sippal" style="font-weight: bold;">1/18</a>
+                <a href="#">
+                <img id="pointerright" src="./image/pointerright.JPG" width="35px" height="35px" >                
+                </a>
+            </div>
+
+            <div id="shownew">
+                <div id="ban">
+                    <a>반갑다! 쇼핑뉴스</a>
+                    <a id="ban3">1/4</a>
+                    <a href="#">
+                    <img id="ban2" src="./image/pointer.JPG" width="50px" height="30px" ></a>
+                </div>
+
+                <div id="nae2">
+                    <ul>
+                        <li>장원표밀면국밥<a>　　모든 상품이 1+1인 기적</a></li>
+                        <li>카라즈<a>　　휴대용 약통 16% 할인!</a></li>
+                        <li>텐마인즈<a>　　귀여운곰돌이수건 할인판매진행중!</a></li>
+                        <li>메이크페이스<a>　　중소기업 우수 추천상품 모음전</a></li>
+                        <li>더일상마켓<a>　　순해서 좋은 보습 바디 로션 30%↓</a></li>
+                        <li>소소데스크<a>　　요새 인기 핫템 1+1 모음전</a></li>
+                        <li>원쁠딜<a>　　수제도라지정과 목건강70%할인</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="page3">
+                <div id="fa">
+                    <a id="fa3" href="#">패션</a><a id="fa3" href="#">라이프</a><a id="fa3" href="#">뷰티</a><a id="fa3" href="#">디지털·레저</a>
+                    <a id="fa1">1/7</a>
+                    <a href="#">
+                    <img id="fa2" src="./image/pointer.JPG" width="50px" height="30px" >
+                    </a>
+            </div>
+
+            <div id="photo2">
+                <a id="photo2good" href="#">
+                <img id="photos" src="./image/13.jpg" width="163.5px" height="163px">
+                <div id="photo2zzang">주목받고 싶은 날엔, DINT</div>
+                </a>
+                <a href="#">
+                <img id="photos" src="./image/14.jpg" width="163.5px" height="163px">
+                <div id="photo3zzang">매일이쁜신상업뎃!</div>
+                </a>
+            </div>
+
+            <div id="page4">
+                <a id="nounder" href="#">
+                <img id="page4image" src="./image/15.jpg" width="60px" height="50px"></a>
+                <a id="page4text">원쁠딜 전 상품 무료배송!</a>
+                <a id="page4text2">1/10</a>
+                <a href="#">
+                <img id="page4image2" src="./image/pointer.JPG" width="50px" height="30px" ></a>
+            </div>
+
+            <div id="photo3">
+                <a id="nounder" href="#">
+                <div id="plus11">
+                <img id="plus1" src="./image/1plus.jpg" width="35px" height="15px">
+                <img id="pplus1" src="./image/plus.jpg" width="20px" height="20px">
+                <img id="main1" src="./image/main.jpg" width="85px" height="60px">
+                <img id="sub1" src="./image/sub.jpg" width="60px" height="60px"> 
+                <a href="#" id="plus111">켄트로얄 초극세모 칫솔 1세트<br>+1만 포인트<br>
+                    <a id="red">41% </a>
+                    <a id="bold">29,800원</a>
+                </a>
+                </a>
+                </div>
+
+                <div id="plus11">
+                    <img id="plus1" src="./image/1plus.jpg" width="35px" height="15px">
+                    <img id="pplus1" src="./image/plus.jpg" width="20px" height="20px">
+                    <img id="main1" src="./image/main2.jpg" width="85px" height="60px">
+                    <img id="sub1" src="./image/sub2.jpg" width="60px" height="60px"> 
+                    <a href="#" id="plus111">KF94 새부리형 컬러 인생마스크<br>50매+50매<br>
+                        <a id="red">29% </a>
+                        <a id="bold">15,900원</a>
+                    </a>
+                    </div>
+
+                    <div id="plus11">
+                        <img id="plus1" src="./image/1plus.jpg" width="35px" height="15px">
+                        <img id="pplus1" src="./image/plus.jpg" width="20px" height="20px">
+                        <img id="main1" src="./image/main3.jpg" width="85px" height="60px">
+                        <img id="sub1" src="./image/sub3.jpg" width="60px" height="60px"> 
+                        <a href="#" id="plus111">헨켈 변기세정제 브레프 파워액<br>티브 레몬 3P 2개+2개<br>
+                            <a id="red">69% </a>
+                            <a id="bold">14,200원</a>
+                        </a>
+                        </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+  <!-- 어사이드 끝 -->
 
   <sidebar>
     <div class="sidebar">사이드바</div>
@@ -478,14 +708,14 @@
           <div class="text_bold-13">웨일 브라우저</div>
           <div class="ac_link"><a href="/">다운받기</a></div>
         </div>
-        <a href=""><img src="image_footer/icon_whale.png" class="ac_img" /></a>
+        <a href=""><img src="image/image_footer/icon_whale.png" class="ac_img" /></a>
       </div>
       <div class="area_col">
         <div class="ac_content">
           <div class="text_bold-13">프로젝트 꽃</div>
           <div class="ac_link"><a href="/">바로가기</a></div>
         </div>
-        <a href=""><img src="image_footer/icon_flower.png" class="ac_img" /></a>
+        <a href=""><img src="image/image_footer/icon_flower.png" class="ac_img" /></a>
       </div>
     </div>
 

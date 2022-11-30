@@ -1,3 +1,8 @@
+section {
+  float: left;
+  margin-left: 370px;
+}
+
 x* {
   border: 1px solid gray;
 }
