@@ -95,14 +95,14 @@ header > nav {
     font-weight: bold;
     border-top: 1px solid #f1f3f6;
 }
-.nav_items ul > li {
+.nav_items ul > #liiiii {
     display: inline-block;
     margin-left: 8px;
 }
-.nav_items ul > li:nth-child(-n + 7) > a { /* <ul>하위 7번째 <li>까지 각각 내부의 <a> 태그 접근 */
+.nav_items ul > #liiiii:nth-child(-n + 7) > a { /* <ul>하위 7번째 <li>까지 각각 내부의 <a> 태그 접근 */
     color: #03cf5d;
 }
-.nav_items ul > li > a {
+.nav_items ul > #liiiii > a {
     text-decoration: none;
     cursor: pointer;
 }

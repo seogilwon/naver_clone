@@ -9,14 +9,14 @@ body {
 }
 #all {
     
-    width: 360px;
+    width: 355px;
     height: auto;
     position: relative;
 }
 
 #login {
     border: 1px solid gainsboro;
-    width: 360px;
+    width: 355px;
     height: 130px;
     background-color: ghostwhite;
     position: relative;
@@ -39,6 +39,10 @@ body {
     line-height: 45px;
     color: white;
     font-weight: bold;
+}
+
+#login3 {
+    color: white;
 }
 
 #id:hover{
@@ -81,7 +85,7 @@ body {
 
 #trend {
     border: 1px solid gainsboro;
-    width: 360px;
+    width: 355px;
     height: 30px;
     margin-top: 20px;
 }
@@ -146,7 +150,7 @@ body {
 
 #nae{
     border: 1px solid gainsboro;
-    width: 360px;
+    width: 355px;
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -156,13 +160,13 @@ body {
 
 #gwang {
     border: 1px solid gainsboro;
-    width: 360px;
+    width: 355px;
     height: 200px;
     margin-top: 10px;
 }
 
 #show {
-    width: 360px;
+    width: 355px;
     height: 1770px;
     margin-top: 10px;
 }
@@ -171,7 +175,7 @@ body {
     background-color: ghostwhite;
     border: 1px solid gainsboro;
     border-bottom: none;
-    width: 360px;
+    width: 355px;
     height: 70px;
     margin-top: 5px;
     line-height: 30px;
@@ -190,7 +194,7 @@ body {
 
 #page {
     border: 1px solid gainsboro;
-    width: 360px;
+    width: 355px;
     height: 50px;
     margin-top: 0px;
 }
@@ -209,7 +213,7 @@ body {
 
 #photo {
     border: 1px solid gainsboro;
-    width: 360px;
+    width: 355px;
     height: 800px;
     margin-top: 1px;
     position: relative;
@@ -233,7 +237,7 @@ body {
 
 #page2 {
     border: 1px solid gainsboro;
-    width: 360px;
+    width: 355px;
     height: 60px;
     margin-top: 0px;
     border-bottom: none;
@@ -259,7 +263,7 @@ body {
 
 #shownew {
     border: 1px solid gainsboro;
-    width: 360px;
+    width: 355px;
     height: 260px;
     margin-top: 0px;
     border-bottom: none;
@@ -281,29 +285,33 @@ body {
     margin-left:100px;
 }
 
-li{
-    margin-left:-10px;
+#lii{
+    margin-top: 2px;
+    margin-left: -15px;
     font-weight: bold;
     line-height: 23px;
     font-size: 13px;
 }
 
-li:hover{
+#lii:hover{
     text-decoration: underline;
 }
 
-li::marker{
+/* #ull{
+    list-style: circle;
+} */
+/* #lii::marker{
     color: chartreuse;
-}
+} */
 
-li > a{
+#lii > a{
     font-weight: lighter;
     font-size: 12px;
 }
 
 #page3 {
     border: 1px solid gainsboro;
-    width: 360px;
+    width: 355px;
     height: 50px;
     margin-top: 0px;
 }
@@ -335,7 +343,7 @@ li > a{
 
 #photo2 {
     border: 1px solid gainsboro;
-    width: 360px;
+    width: 355px;
     height: 200px;
     margin-top: 20px;
     border-bottom: none;
@@ -343,7 +351,7 @@ li > a{
 
 #page4 {
     border: 1px solid gainsboro;
-    width: 360px;
+    width: 355px;
     height: 50px;
     margin-top: 0px;
     border-bottom: none;
@@ -373,7 +381,7 @@ li > a{
 
 #photo3 {
     border: 1px solid gainsboro;
-    width: 360px;
+    width: 355px;
     height: 220px;
     margin-top: 0px;
     position: relative;

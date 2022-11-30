@@ -1,6 +1,6 @@
 section {
   float: left;
-  margin-left: 370px;
+  margin-left: 360px;
 }
 
 x* {
@@ -12,8 +12,8 @@ a {
   color: black;
 }
 
-ul,
-li {
+/* ul, */
+#lii {
   list-style: none;
   margin: 0;
   padding: 0;

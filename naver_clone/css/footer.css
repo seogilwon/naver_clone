@@ -42,7 +42,7 @@
     font-size: 13px;
     font-weight: bold;
   }
-  .area_user_row ul > li {
+  .area_user_row ul > #liiii {
     display: inline-block; /* li 수평정렬하는 방법 */
     margin-left: 8px;
   }
@@ -62,11 +62,11 @@
     padding-top: 20px;
     font-size: 14px;
   }
-  .bottom_box ul > li {
+  .bottom_box ul > #liiii {
     display: inline-block; /* 수평정렬 */
     margin-left: 8px;
   }
-  .bottom_box ul > li:last-child {
+  .bottom_box ul > #liiii:last-child {
     /* 마지막 li요소 (Naver Corp.) 굵게 */
     font-weight: bold;
   }
