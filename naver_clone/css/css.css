@@ -1,7 +1,13 @@
+#jebal{
+    width: 1300px;
+    height: auto;
+    margin: 0px auto;
+}
+
 aside{
     float: right;
-    margin-right: 380px;
-    margin-top: 10px;
+    margin-right: 100px;
+    margin-top: 20px;
     /* position: fixed; */
 }
 

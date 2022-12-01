@@ -49,6 +49,7 @@ fieldset {
 }
 .img_logo {
     margin-bottom: 12px;
+    margin-left: 50px;
     width: 220px;
     height: 65px;
 }
@@ -70,9 +71,9 @@ fieldset {
 }
 .search_box button {
     flex: 1; /* search-box내부에서 1만큼의 크기를 차지(비율) */
-    height: 40px;
+    height: 50px;
     margin: 0px;
-    margin-top: -15px;
+    margin-top: -1px;
     padding: 0;
     border: none;
     outline: none;
@@ -111,6 +112,7 @@ header > nav {
 
 .color_weather {
     color: black;
+    margin-right: 70px;
 }
 .mail_logo {
     border: red
