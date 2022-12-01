@@ -70,8 +70,9 @@ fieldset {
 }
 .search_box button {
     flex: 1; /* search-box내부에서 1만큼의 크기를 차지(비율) */
-    height: 46px;
-    margin: 0;
+    height: 40px;
+    margin: 0px;
+    margin-top: -15px;
     padding: 0;
     border: none;
     outline: none;
